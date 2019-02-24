@@ -1,0 +1,16 @@
+PODS:
+  - LLSimpleCamera (5.0.0)
+
+DEPENDENCIES:
+  - LLSimpleCamera
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - LLSimpleCamera
+
+SPEC CHECKSUMS:
+  LLSimpleCamera: 7175ccb81be71c83d79933089322eb662b1f0327
+
+PODFILE CHECKSUM: ba100139d2a4f24b9e4f1fad513b2e835f6c691c
+
+COCOAPODS: 1.5.3

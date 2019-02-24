@@ -1,0 +1,633 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0C7DB4B7EB81F13BCFED11AD7FE3A8CE /* LLSimpleCamera.m in Sources */ = {isa = PBXBuildFile; fileRef = 7536353B603EBD97B2279C1C0FC7CCF1 /* LLSimpleCamera.m */; };
+		1A05789764A425BEA99A5CC6C875F40F /* UIImage+FixOrientation.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FE8409E6DC876F054300E1FFB4279D6 /* UIImage+FixOrientation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		308B94DDEBA0090031301CC8432B1045 /* LLSimpleCamera.h in Headers */ = {isa = PBXBuildFile; fileRef = 68B3857B1BF45AD91132D57840329D69 /* LLSimpleCamera.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4507EC617BD72B3A92A87015CDB47836 /* LLSimpleCamera-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 118612CC31ACDAFEAAC6F7F232F9BDB1 /* LLSimpleCamera-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4888E1D6B5FAD82B7982AC1A1A31F2F9 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A8F7DE2424F5EC1C12409BAE50CE6AA /* AVFoundation.framework */; };
+		589CD06B77C67E8D97EDABDC9AFABF81 /* Pods-HertzKiosk-iPad-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B8122EBC8F0FC0E2DB3148C30A9E331 /* Pods-HertzKiosk-iPad-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6E046F484DE9F830FB287EACA1787018 /* LLSimpleCamera-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CD21540812B49A033CE7AB07ACD915E /* LLSimpleCamera-dummy.m */; };
+		9EB438EB02CC5E68F1BDD0A399D48E98 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2A8016F6A05B02D6A150134BC0E5ECD /* Foundation.framework */; };
+		A7AABA1B87F3839C048F7E2D969C462F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2A8016F6A05B02D6A150134BC0E5ECD /* Foundation.framework */; };
+		B4E9D7A0565D8B16D57C840A800495AA /* LLSimpleCamera+Helper.h in Headers */ = {isa = PBXBuildFile; fileRef = 9282D04F65FDB5FCB444B15A12BB2C3F /* LLSimpleCamera+Helper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B62E1B40EE743B686053CD866D15F09A /* LLSimpleCamera+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 9299A1B7D06CCF624A074C1E3C90659E /* LLSimpleCamera+Helper.m */; };
+		BD414996A02F050D6425EFC5EC410C00 /* Pods-HertzKiosk-iPad-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C94F0D7EC5859C328CF2D7280770006F /* Pods-HertzKiosk-iPad-dummy.m */; };
+		F88B1CBADA1743A89EBBC015DFD9996B /* UIImage+FixOrientation.m in Sources */ = {isa = PBXBuildFile; fileRef = C5EB308E9C7823004375A70D12394847 /* UIImage+FixOrientation.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		28F5D3D321576BCFCF83173C0BD28974 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 35D7A0FAD5FC3EDE68D96865C84893E5;
+			remoteInfo = LLSimpleCamera;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		07D5AA50DC621A9D9A9A2FBD22C4A869 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		118612CC31ACDAFEAAC6F7F232F9BDB1 /* LLSimpleCamera-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LLSimpleCamera-umbrella.h"; sourceTree = "<group>"; };
+		283661A77C9BD2B417D872D75BA302D0 /* LLSimpleCamera-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LLSimpleCamera-prefix.pch"; sourceTree = "<group>"; };
+		2D460422EECD826F8F01EC62BB8D391B /* Pods-HertzKiosk-iPad.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HertzKiosk-iPad.modulemap"; sourceTree = "<group>"; };
+		30108A401B0E0CC29A0232744D2CBD55 /* LLSimpleCamera.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LLSimpleCamera.modulemap; sourceTree = "<group>"; };
+		3A8F7DE2424F5EC1C12409BAE50CE6AA /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/AVFoundation.framework; sourceTree = DEVELOPER_DIR; };
+		68B3857B1BF45AD91132D57840329D69 /* LLSimpleCamera.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LLSimpleCamera.h; path = LLSimpleCamera/LLSimpleCamera.h; sourceTree = "<group>"; };
+		6BD94782973E6A6C053B8187F2670F82 /* Pods-HertzKiosk-iPad-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HertzKiosk-iPad-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6FE8409E6DC876F054300E1FFB4279D6 /* UIImage+FixOrientation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+FixOrientation.h"; path = "LLSimpleCamera/UIImage+FixOrientation.h"; sourceTree = "<group>"; };
+		7536353B603EBD97B2279C1C0FC7CCF1 /* LLSimpleCamera.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LLSimpleCamera.m; path = LLSimpleCamera/LLSimpleCamera.m; sourceTree = "<group>"; };
+		865DA2ED7BA815703E08088235EBF32D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8A408EE7F31765746F39F2AEA5DD20C0 /* Pods-HertzKiosk-iPad.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HertzKiosk-iPad.debug.xcconfig"; sourceTree = "<group>"; };
+		8B8122EBC8F0FC0E2DB3148C30A9E331 /* Pods-HertzKiosk-iPad-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HertzKiosk-iPad-umbrella.h"; sourceTree = "<group>"; };
+		8CD21540812B49A033CE7AB07ACD915E /* LLSimpleCamera-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LLSimpleCamera-dummy.m"; sourceTree = "<group>"; };
+		9282D04F65FDB5FCB444B15A12BB2C3F /* LLSimpleCamera+Helper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "LLSimpleCamera+Helper.h"; path = "LLSimpleCamera/LLSimpleCamera+Helper.h"; sourceTree = "<group>"; };
+		9299A1B7D06CCF624A074C1E3C90659E /* LLSimpleCamera+Helper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "LLSimpleCamera+Helper.m"; path = "LLSimpleCamera/LLSimpleCamera+Helper.m"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A1637A52DD78E32F731F0FBC96F3A439 /* Pods_HertzKiosk_iPad.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HertzKiosk_iPad.framework; path = "Pods-HertzKiosk-iPad.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2A8016F6A05B02D6A150134BC0E5ECD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		ABC1A3EF3D2DE77611889F04011ECCB1 /* Pods-HertzKiosk-iPad-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HertzKiosk-iPad-frameworks.sh"; sourceTree = "<group>"; };
+		B6A21850A30CB81AF070E0DACDF06B0C /* Pods-HertzKiosk-iPad.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HertzKiosk-iPad.release.xcconfig"; sourceTree = "<group>"; };
+		BC92DFC1BFC067CC9298DF7F1146C419 /* Pods-HertzKiosk-iPad-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HertzKiosk-iPad-acknowledgements.plist"; sourceTree = "<group>"; };
+		C5EB308E9C7823004375A70D12394847 /* UIImage+FixOrientation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+FixOrientation.m"; path = "LLSimpleCamera/UIImage+FixOrientation.m"; sourceTree = "<group>"; };
+		C94F0D7EC5859C328CF2D7280770006F /* Pods-HertzKiosk-iPad-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HertzKiosk-iPad-dummy.m"; sourceTree = "<group>"; };
+		DB06706588BD97D3CF1B5866231BFF16 /* LLSimpleCamera.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LLSimpleCamera.framework; path = LLSimpleCamera.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC71C64664A941F301A2874485A8B1D7 /* LLSimpleCamera.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LLSimpleCamera.xcconfig; sourceTree = "<group>"; };
+		F0E2A3F87A24C94BC4650F0058BB36B5 /* Pods-HertzKiosk-iPad-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HertzKiosk-iPad-resources.sh"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0B493B5F56FDE8FF1DF06992FA024295 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4888E1D6B5FAD82B7982AC1A1A31F2F9 /* AVFoundation.framework in Frameworks */,
+				A7AABA1B87F3839C048F7E2D969C462F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34D0B25D424DCEB10E1F5A52D9F0F6D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9EB438EB02CC5E68F1BDD0A399D48E98 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		15B9CD02BD82F5C6A061FD034982C0CD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2829F7538BB6966B5A7BC05BD71427C4 /* LLSimpleCamera */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		2829F7538BB6966B5A7BC05BD71427C4 /* LLSimpleCamera */ = {
+			isa = PBXGroup;
+			children = (
+				68B3857B1BF45AD91132D57840329D69 /* LLSimpleCamera.h */,
+				7536353B603EBD97B2279C1C0FC7CCF1 /* LLSimpleCamera.m */,
+				9282D04F65FDB5FCB444B15A12BB2C3F /* LLSimpleCamera+Helper.h */,
+				9299A1B7D06CCF624A074C1E3C90659E /* LLSimpleCamera+Helper.m */,
+				6FE8409E6DC876F054300E1FFB4279D6 /* UIImage+FixOrientation.h */,
+				C5EB308E9C7823004375A70D12394847 /* UIImage+FixOrientation.m */,
+				B2BD975A81B0F7E3E81D621ED850D61C /* Support Files */,
+			);
+			name = LLSimpleCamera;
+			path = LLSimpleCamera;
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B85ADDD365B9DBF7697B00F27B8790A9 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		49337DDF244C512038097D0B8D1A80E2 /* Pods-HertzKiosk-iPad */ = {
+			isa = PBXGroup;
+			children = (
+				07D5AA50DC621A9D9A9A2FBD22C4A869 /* Info.plist */,
+				2D460422EECD826F8F01EC62BB8D391B /* Pods-HertzKiosk-iPad.modulemap */,
+				6BD94782973E6A6C053B8187F2670F82 /* Pods-HertzKiosk-iPad-acknowledgements.markdown */,
+				BC92DFC1BFC067CC9298DF7F1146C419 /* Pods-HertzKiosk-iPad-acknowledgements.plist */,
+				C94F0D7EC5859C328CF2D7280770006F /* Pods-HertzKiosk-iPad-dummy.m */,
+				ABC1A3EF3D2DE77611889F04011ECCB1 /* Pods-HertzKiosk-iPad-frameworks.sh */,
+				F0E2A3F87A24C94BC4650F0058BB36B5 /* Pods-HertzKiosk-iPad-resources.sh */,
+				8B8122EBC8F0FC0E2DB3148C30A9E331 /* Pods-HertzKiosk-iPad-umbrella.h */,
+				8A408EE7F31765746F39F2AEA5DD20C0 /* Pods-HertzKiosk-iPad.debug.xcconfig */,
+				B6A21850A30CB81AF070E0DACDF06B0C /* Pods-HertzKiosk-iPad.release.xcconfig */,
+			);
+			name = "Pods-HertzKiosk-iPad";
+			path = "Target Support Files/Pods-HertzKiosk-iPad";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				15B9CD02BD82F5C6A061FD034982C0CD /* Pods */,
+				D549BAA2C01B0218B5A7A8775B7E441F /* Products */,
+				D072C7B49064E033D2497D86B5F582E8 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		B2BD975A81B0F7E3E81D621ED850D61C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				865DA2ED7BA815703E08088235EBF32D /* Info.plist */,
+				30108A401B0E0CC29A0232744D2CBD55 /* LLSimpleCamera.modulemap */,
+				DC71C64664A941F301A2874485A8B1D7 /* LLSimpleCamera.xcconfig */,
+				8CD21540812B49A033CE7AB07ACD915E /* LLSimpleCamera-dummy.m */,
+				283661A77C9BD2B417D872D75BA302D0 /* LLSimpleCamera-prefix.pch */,
+				118612CC31ACDAFEAAC6F7F232F9BDB1 /* LLSimpleCamera-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/LLSimpleCamera";
+			sourceTree = "<group>";
+		};
+		B85ADDD365B9DBF7697B00F27B8790A9 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3A8F7DE2424F5EC1C12409BAE50CE6AA /* AVFoundation.framework */,
+				A2A8016F6A05B02D6A150134BC0E5ECD /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		D072C7B49064E033D2497D86B5F582E8 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				49337DDF244C512038097D0B8D1A80E2 /* Pods-HertzKiosk-iPad */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		D549BAA2C01B0218B5A7A8775B7E441F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DB06706588BD97D3CF1B5866231BFF16 /* LLSimpleCamera.framework */,
+				A1637A52DD78E32F731F0FBC96F3A439 /* Pods_HertzKiosk_iPad.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		70096F99B9879113273E29FD99513370 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				589CD06B77C67E8D97EDABDC9AFABF81 /* Pods-HertzKiosk-iPad-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7E69E40ED65B1CC3F4F8FB2280BA52E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4E9D7A0565D8B16D57C840A800495AA /* LLSimpleCamera+Helper.h in Headers */,
+				4507EC617BD72B3A92A87015CDB47836 /* LLSimpleCamera-umbrella.h in Headers */,
+				308B94DDEBA0090031301CC8432B1045 /* LLSimpleCamera.h in Headers */,
+				1A05789764A425BEA99A5CC6C875F40F /* UIImage+FixOrientation.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1D3CEF29D9905F40CD3B89A657B91FB9 /* Pods-HertzKiosk-iPad */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E1B9562BEB9B0BAB55FBF6A9C23AFFC /* Build configuration list for PBXNativeTarget "Pods-HertzKiosk-iPad" */;
+			buildPhases = (
+				70096F99B9879113273E29FD99513370 /* Headers */,
+				2792777D7CE7F24D85E5128FBEFA80E2 /* Sources */,
+				34D0B25D424DCEB10E1F5A52D9F0F6D0 /* Frameworks */,
+				216A3D97EE88808CAA4BE3A1DD405F8B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7FABFC439195D1EC51E05A78C6184499 /* PBXTargetDependency */,
+			);
+			name = "Pods-HertzKiosk-iPad";
+			productName = "Pods-HertzKiosk-iPad";
+			productReference = A1637A52DD78E32F731F0FBC96F3A439 /* Pods_HertzKiosk_iPad.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		35D7A0FAD5FC3EDE68D96865C84893E5 /* LLSimpleCamera */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05079C0A1AD1AC339A5D86715E7521F0 /* Build configuration list for PBXNativeTarget "LLSimpleCamera" */;
+			buildPhases = (
+				C7E69E40ED65B1CC3F4F8FB2280BA52E /* Headers */,
+				B78D8FA4AAD6136D179A05EB7FD70F63 /* Sources */,
+				0B493B5F56FDE8FF1DF06992FA024295 /* Frameworks */,
+				186722AC38085DE2D08654728AE08EB2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LLSimpleCamera;
+			productName = LLSimpleCamera;
+			productReference = DB06706588BD97D3CF1B5866231BFF16 /* LLSimpleCamera.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = D549BAA2C01B0218B5A7A8775B7E441F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				35D7A0FAD5FC3EDE68D96865C84893E5 /* LLSimpleCamera */,
+				1D3CEF29D9905F40CD3B89A657B91FB9 /* Pods-HertzKiosk-iPad */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		186722AC38085DE2D08654728AE08EB2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		216A3D97EE88808CAA4BE3A1DD405F8B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2792777D7CE7F24D85E5128FBEFA80E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD414996A02F050D6425EFC5EC410C00 /* Pods-HertzKiosk-iPad-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B78D8FA4AAD6136D179A05EB7FD70F63 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B62E1B40EE743B686053CD866D15F09A /* LLSimpleCamera+Helper.m in Sources */,
+				6E046F484DE9F830FB287EACA1787018 /* LLSimpleCamera-dummy.m in Sources */,
+				0C7DB4B7EB81F13BCFED11AD7FE3A8CE /* LLSimpleCamera.m in Sources */,
+				F88B1CBADA1743A89EBBC015DFD9996B /* UIImage+FixOrientation.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7FABFC439195D1EC51E05A78C6184499 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LLSimpleCamera;
+			target = 35D7A0FAD5FC3EDE68D96865C84893E5 /* LLSimpleCamera */;
+			targetProxy = 28F5D3D321576BCFCF83173C0BD28974 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0AA3B91655AF95B1F49159CD8085CD89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		51B598B8CBA22FEB1E8690374D7902A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC71C64664A941F301A2874485A8B1D7 /* LLSimpleCamera.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LLSimpleCamera/LLSimpleCamera-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LLSimpleCamera/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/LLSimpleCamera/LLSimpleCamera.modulemap";
+				PRODUCT_MODULE_NAME = LLSimpleCamera;
+				PRODUCT_NAME = LLSimpleCamera;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		779EABBA81AB82D3C80A6093ECEE3F34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC71C64664A941F301A2874485A8B1D7 /* LLSimpleCamera.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LLSimpleCamera/LLSimpleCamera-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LLSimpleCamera/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/LLSimpleCamera/LLSimpleCamera.modulemap";
+				PRODUCT_MODULE_NAME = LLSimpleCamera;
+				PRODUCT_NAME = LLSimpleCamera;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8000995DA02063BF3777393CD52061DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		935A129E9902D4E7EA44A4466C37EF8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B6A21850A30CB81AF070E0DACDF06B0C /* Pods-HertzKiosk-iPad.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HertzKiosk-iPad/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HertzKiosk-iPad/Pods-HertzKiosk-iPad.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FF888CE5B6C5165D9C7643AAF06B0D1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A408EE7F31765746F39F2AEA5DD20C0 /* Pods-HertzKiosk-iPad.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HertzKiosk-iPad/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HertzKiosk-iPad/Pods-HertzKiosk-iPad.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		05079C0A1AD1AC339A5D86715E7521F0 /* Build configuration list for PBXNativeTarget "LLSimpleCamera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				51B598B8CBA22FEB1E8690374D7902A2 /* Debug */,
+				779EABBA81AB82D3C80A6093ECEE3F34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0AA3B91655AF95B1F49159CD8085CD89 /* Debug */,
+				8000995DA02063BF3777393CD52061DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E1B9562BEB9B0BAB55FBF6A9C23AFFC /* Build configuration list for PBXNativeTarget "Pods-HertzKiosk-iPad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF888CE5B6C5165D9C7643AAF06B0D1E /* Debug */,
+				935A129E9902D4E7EA44A4466C37EF8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
